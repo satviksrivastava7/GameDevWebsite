@@ -92,6 +92,7 @@ body {
     transform: scale(1.25) rotate(-27deg);
     background: #070707;
     color: #eeffee;
+    transition: 0.7s;
 }
 
 
