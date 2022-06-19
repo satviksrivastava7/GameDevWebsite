@@ -1,7 +1,11 @@
-﻿body {
+body {
     background: linear-gradient(157deg, #000428, #061161) no-repeat center center fixed;
     background-size: cover;
 }
+
+/*____________________________________________*/
+/*Styling for Header section starts from here*/
+/*____________________________________________*/
 
 .header {
     display: grid;
@@ -16,6 +20,7 @@
     height: 50px;
 }
 
+/* Menu Design starts here */
 .navbar {
     text-align: center;
     position: relative;
@@ -53,6 +58,10 @@
     font-weight: 400;
 }
 
+/*Menu Design ends here*/
+
+/*Social Media Icon design starts here*/
+
 .social{
     text-align: right;
 }
@@ -75,24 +84,8 @@
     color: #eeffee;
 }
 
-.slideshow {
-    padding-top: 177px;
-    text-align: center;
-}
+/*Social Media Design ends here*/
 
-.slideshow h1{
-    font-size: 77px;
-    color: #eeffee;
-    font-family: Roboto, sans-serif;
-    margin-bottom: 47px;
-    font-weight: 400;
-}
-
-.slideshow img{
-    height: 700px;
-}
-
-.slideshow img:hover{
-    opacity: 75%;
-    cursor: pointer;
-}
+/*____________________________________*/
+/*Styling for Header section ends here*/
+/*____________________________________*/
