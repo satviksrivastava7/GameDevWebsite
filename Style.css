@@ -1,0 +1,98 @@
+﻿body {
+    background: linear-gradient(157deg, #000428, #061161) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header {
+    display: grid;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+
+.logo img{
+    padding: 10px;
+    width: 125px; 
+    height: 50px;
+}
+
+.navbar {
+    text-align: center;
+    position: relative;
+    border-radius: 27px;
+    height: 50px;
+    display: grid;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .27);
+}
+
+.navbar:hover{
+    background-color: #070707;
+}
+
+.navbar a{
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    color: #eeffee;
+    float: left;
+    padding-left: 47px;
+    padding-right: 47px;
+}
+
+.navbar a:hover{
+    transform: scale(1.5); 
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.navbar a:active{
+    transform: scale(1.25);
+    font-weight: 400;
+}
+
+.social{
+    text-align: right;
+}
+
+.social .fa{
+    margin: 7px;
+    padding: 10px; 
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 47px;
+    background: #eeffee;
+    color: #070707;
+}
+
+.fa:hover {
+    transform: scale(1.25) rotate(-27deg);
+    background: #070707;
+    color: #eeffee;
+}
+
+.slideshow {
+    padding-top: 177px;
+    text-align: center;
+}
+
+.slideshow h1{
+    font-size: 77px;
+    color: #eeffee;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 47px;
+    font-weight: 400;
+}
+
+.slideshow img{
+    height: 700px;
+}
+
+.slideshow img:hover{
+    opacity: 75%;
+    cursor: pointer;
+}
