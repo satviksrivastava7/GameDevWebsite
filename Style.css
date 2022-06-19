@@ -3,8 +3,13 @@ body {
     background-size: cover;
 }
 
+
 /*____________________________________________*/
+
+
 /*Styling for Header section starts from here*/
+
+
 /*____________________________________________*/
 
 .header {
@@ -14,13 +19,15 @@ body {
     align-items: center;
 }
 
-.logo img{
+.logo img {
     padding: 10px;
-    width: 125px; 
+    width: 125px;
     height: 50px;
 }
 
+
 /* Menu Design starts here */
+
 .navbar {
     text-align: center;
     position: relative;
@@ -33,11 +40,11 @@ body {
     background-color: rgba(0, 0, 0, .27);
 }
 
-.navbar:hover{
+.navbar:hover {
     background-color: #070707;
 }
 
-.navbar a{
+.navbar a {
     font-family: Roboto, sans-serif;
     font-size: 17px;
     font-weight: 200;
@@ -47,28 +54,31 @@ body {
     padding-right: 47px;
 }
 
-.navbar a:hover{
-    transform: scale(1.5); 
+.navbar a:hover {
+    transform: scale(1.5);
     cursor: pointer;
-    font-weight: 600;
+    font-weight: bold;
+    transition: 0.6s;
 }
 
-.navbar a:active{
+.navbar a:active {
     transform: scale(1.25);
     font-weight: 400;
 }
 
+
 /*Menu Design ends here*/
+
 
 /*Social Media Icon design starts here*/
 
-.social{
+.social {
     text-align: right;
 }
 
-.social .fa{
+.social .fa {
     margin: 7px;
-    padding: 10px; 
+    padding: 10px;
     font-size: 15px;
     width: 15px;
     text-align: center;
@@ -84,8 +94,14 @@ body {
     color: #eeffee;
 }
 
+
 /*Social Media Design ends here*/
 
+
 /*____________________________________*/
+
+
 /*Styling for Header section ends here*/
+
+
 /*____________________________________*/
