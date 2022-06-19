@@ -89,3 +89,84 @@ body {
 /*____________________________________*/
 /*Styling for Header section ends here*/
 /*____________________________________*/
+
+
+
+/*________________*/
+/*SLIDESHOW starts*/
+/*________________*/
+
+.slideshow {
+    background: rgba(0, 0, 0, 0.27);
+    margin-top: 100px;
+    display: grid;
+    height: 540px;
+    align-content: space-evenly;
+    grid-template-columns: 60% 35%;
+    align-items: center;
+}
+
+.slideshow img{
+    padding-left: 10px;
+    width: 100%;
+    height: 110%;
+}
+
+.slideshow img:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.text-container{ 
+    margin-left: 75px;
+    background: rgba(0, 0, 0, 0.27);
+    border-radius: 27px;
+    text-align: center;
+    padding: 10px;
+    color: #eeffee;
+    font-family: Roboto, sans-serif;
+}
+
+.text-container:hover{
+    transform: scale(1.1);
+    background: rgba(0, 0, 0, 0.47);
+}
+
+.text-container h2{
+    font-size: 40px;
+}
+
+.text-container p{
+    position: relative;
+    font-size: 17px;
+}
+
+.slideshow button {
+    background-color: transparent;
+    border: 1px solid #eeffee;
+    box-sizing: border-box;
+    color: #eeffee;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 120px;
+    height: 50px;
+    border-radius: 47px;
+    font-size: 22px;
+    line-height: 27px;
+    touch-action: manipulation;
+    text-decoration: none;
+}
+
+.slideshow .button:hover {
+    background-color: rgba(250, 255, 250, 0.80);
+    transition: background-color 500ms ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #070707;
+    font-weight: 600;
+    border: 1px solid #070707;
+}
+
+/*______________*/
+/*SLIDESHOW ends*/
+/*______________*/
