@@ -141,7 +141,7 @@ body {
     font-size: 17px;
 }
 
-.slideshow button {
+.button {
     background-color: transparent;
     border: 1px solid #eeffee;
     box-sizing: border-box;
@@ -157,7 +157,7 @@ body {
     text-decoration: none;
 }
 
-.slideshow .button:hover {
+.button:hover {
     background-color: rgba(250, 255, 250, 0.80);
     transition: background-color 500ms ease-in-out;
     transform: scale(1.1);
