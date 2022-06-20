@@ -96,28 +96,33 @@ body {
 /*SLIDESHOW starts*/
 /*________________*/
 
-.slideshow {
+.banner {
     background: rgba(0, 0, 0, 0.27);
-    margin-top: 100px;
-    display: grid;
+    margin-top: 50px;
     height: 540px;
     align-content: space-evenly;
     grid-template-columns: 60% 35%;
     align-items: center;
+    display: none;
 }
 
-.slideshow img{
+.banner--selected{
+    display: grid;
+}
+
+.banner img{
     padding-left: 10px;
     width: 100%;
     height: 110%;
 }
 
-.slideshow img:hover{
+.banner img:hover{
     opacity: 0.75;
     cursor: pointer;
+    transform: scale(0.95);
 }
 
-.text-container{ 
+.banner .text-container{ 
     margin-left: 75px;
     background: rgba(0, 0, 0, 0.27);
     border-radius: 27px;
@@ -127,7 +132,7 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.text-container:hover{
+.banner .text-container:hover{
     transform: scale(1.1);
     background: rgba(0, 0, 0, 0.47);
 }
@@ -141,23 +146,21 @@ body {
     font-size: 17px;
 }
 
-.button {
+.banner .button {
     background-color: transparent;
     border: 1px solid #eeffee;
     box-sizing: border-box;
     color: #eeffee;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 400;   
     width: 120px;
     height: 50px;
     border-radius: 47px;
     font-size: 22px;
     line-height: 27px;
-    touch-action: manipulation;
-    text-decoration: none;
 }
 
-.button:hover {
+.banner .button:hover {
     background-color: rgba(250, 255, 250, 0.80);
     transition: background-color 500ms ease-in-out;
     transform: scale(1.1);
@@ -167,6 +170,32 @@ body {
     border: 1px solid #070707;
 }
 
+.carousel_nav{
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.carousel_btn{
+    width: 27px;
+    height: 7px;
+    display: inline-block;
+    background: rgba(250, 255, 250, 0.47);
+    border-radius: 47px;
+    margin: 0 7px;
+}
+
+.carousel_btn:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+}
+
+.carousel_btn--selected{
+    background: #eeffee;
+}
 /*______________*/
 /*SLIDESHOW ends*/
 /*______________*/
