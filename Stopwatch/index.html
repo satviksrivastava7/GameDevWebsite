@@ -1,0 +1,35 @@
+<!--Stopwatch using html-->
+
+<!Doctype html>
+<html>
+
+<head>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="./style.css">
+    <!--import bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" href="logo.png">
+</head>
+
+<body align="center">
+    <h1 class="head" align="center">Stopwatch</h1>
+    <div class="time" align="center">
+        <span class="digit" id="hour">00</span>
+        <span class="text">hr</span>
+        <span class="digit" id="minutes">00</span>
+        <span class="text">min</span>
+        <span class="digit" id="seconds">00</span>
+        <span class="text">sec</span>
+        <span class="digit" id="count">00</span>
+    </div>
+
+    <div class="buttons" align="center">
+        <button class="btn btn-success" id="start">Start</button>
+        <button class="btn btn-danger" id="stop">Stop</button>
+        <button class="btn btn-primary" id="reset">Reset</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

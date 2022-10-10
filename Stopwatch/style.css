@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+}
+
+.head {
+    font-size: 70px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.digit {
+    font-size: 50px;
+}
+
+.buttons {
+    margin-top: 3%;
+}
+
+.btn {
+    margin-right: 2%;
+    width: max-content;
+}
