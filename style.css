@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(147deg, #FFFFFF, #F5F7FA) no-repeat center center fixed;
+    /*background: linear-gradient(147deg, #FFFFFF, #F5F7FA) no-repeat center center fixed;*/
+    background-color: #152238;
     background-size: cover;
 }
 
